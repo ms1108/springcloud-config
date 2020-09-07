@@ -14,7 +14,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: springcloud-config-dept #3个服务名称一致
+    name: springcloud-config-dept
   datasource:
     username: root
     password: 123456
@@ -46,7 +46,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-dept #3个服务名称一致
   datasource:
